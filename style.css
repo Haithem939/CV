@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Colonne gauche */
+.sidebar {
+  background-color: #2f3b52;
+  color: white;
+  width: 30%;
+  padding: 30px;
+}
+
+.sidebar h3 {
+  border-bottom: 1px solid #fff3;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* Colonne droite */
+.content {
+  width: 70%;
+  padding: 40px;
+}
+
+.content h3 {
+  color: #007acc;
+  margin-top: 0;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.job h4 {
+  margin-bottom: 5px;
+  color: #333
